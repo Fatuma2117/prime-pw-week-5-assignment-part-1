@@ -24,10 +24,14 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-let fullName = {
-  firstName: 'Fatuma',
-  lastName: 'Abdi'
-}
+let fullName =  me.firstName + ' ' + me.lastName
+// or
+
+// let fullName = {
+//   firstName: 'Fatuma',
+//   lastName: 'Abdi'
+ 
+
 console.log(fullName);
 
 /* 3. Nested arrays
